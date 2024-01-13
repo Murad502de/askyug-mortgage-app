@@ -1,0 +1,16 @@
+{
+    "widget":{
+        "name":"USI-Mortgage ABP",
+        "short_description":"The widget for automating the Mortgage business process",
+        "description":"The widget for automating the Mortgage business process"
+    },
+    "settings":{
+        "login":"User login",
+        "api_key":"API key",
+        "account":"Account",
+        "try_free": "Try for free"
+    },
+    "advanced":{
+        "title":"Advanced settings of the widget for automating the Mortgage business process"
+    }
+}

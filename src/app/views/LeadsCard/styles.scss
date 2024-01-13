@@ -1,0 +1,13 @@
+.usi-mortgage--leadscard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  &__lead-button {
+    min-width: 250px;
+    width: 50%;
+  }
+}

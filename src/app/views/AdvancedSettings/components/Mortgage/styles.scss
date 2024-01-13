@@ -1,0 +1,90 @@
+.usi-mortgage--advanced-settings__mortgage {
+  position: relative;
+
+  &--close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  &--title {
+    font-weight: bold;
+  }
+
+  &--main {
+    margin-top: 48px;
+  }
+
+  &--mortgage-pipeline {
+    &__pipeline {
+      &--row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 24px;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+
+      &--select {}
+
+      &--textfield {
+        margin-left: 14px;
+      }
+    }
+
+    &__stages {
+      margin-top: 48px;
+
+      &--title {
+        font-weight: bold;
+      }
+
+      &--rows {}
+
+      &--row {
+        margin-top: 24px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+
+        &-item {
+          margin-left: 14px;
+
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &--pipelines {
+    margin-top: 48px;
+
+    &__add {
+      width: max-content;
+    }
+
+    &__items {
+      margin-top: 24px;
+    }
+
+    &__item {
+      margin-top: 24px;
+
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
